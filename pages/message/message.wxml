@@ -1,0 +1,75 @@
+<SearchInput></SearchInput>
+<!-- 监听自定义事件 -->
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+	<block wx:if="{{tabs[0].isActive}}">
+		<view class="first_tab">
+			<navigator
+			 class="goods_item">
+				<!-- 左侧 头像容器 -->
+				<view class="goods_img_wrap">
+					<image class="headPortrait" mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596697070065&di=aa15fa515c92d766d2419a727ed2ee4d&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_pic%2F17%2F12%2F26%2Fc3e2a46cfb19fccfee6ebe9920e57f19.jpg"></image>
+				</view>
+				<!-- 右侧 信息容器 -->
+				<view class="goods_info_wrap">
+					<view class="goods_name">云初书城</view>
+					<view class="goods_price">亲，今天有活动优惠喔！</view>
+				</view>
+			</navigator>
+
+      <navigator
+			 class="goods_item">
+      	<!-- 左侧 头像容器 -->
+				<view class="goods_img_wrap">
+					<image class="headPortrait" mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596697851701&di=f064185e21a72abe48f016589cb1aa84&imgtype=0&src=http%3A%2F%2Fimg.yzcdn.cn%2Fupload_files%2F2015%2F07%2F16%2F143700716766342360.jpg"></image>
+				</view>
+				<!-- 右侧 信息容器 -->
+				<view class="goods_info_wrap">
+					<view class="goods_name">觅食</view>
+					<view class="goods_price">这里有亲想要的各种零食！</view>
+				</view>
+			</navigator>
+
+       <navigator
+			 class="goods_item">
+      	<!-- 左侧 头像容器 -->
+				<view class="goods_img_wrap">
+					<image class="headPortrait" mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596697718704&di=c06e69c6ca4b7c77eb5f9ef0f185f9a9&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F0c32fc3f21273a8a2588d43870f15d4a0e1081ca6c780-R3f92z_fw658"></image>
+				</view>
+				<!-- 右侧 信息容器 -->
+				<view class="goods_info_wrap">
+					<view class="goods_name">云初甜食</view>
+					<view class="goods_price">会员特享折扣！</view>
+				</view>
+			</navigator>
+
+
+       <navigator
+			 class="goods_item">
+      	<!-- 左侧 头像容器 -->
+				<view class="goods_img_wrap">
+					<image class="headPortrait" mode="widthFix" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1807010714,4031599943&fm=26&gp=0.jpg"></image>
+				</view>
+				<!-- 右侧 信息容器 -->
+				<view class="goods_info_wrap">
+					<view class="goods_name">零食部落</view>
+					<view class="goods_price">特价商品买一送一！</view>
+				</view>
+			</navigator>
+
+       <navigator
+			 class="goods_item">
+      	<!-- 左侧 头像容器 -->
+				<view class="goods_img_wrap">
+					<image class="headPortrait" mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1596697851702&di=215c3e68ca860c08c9836fad2f3c2eea&imgtype=0&src=http%3A%2F%2Fimg.alicdn.com%2Fimgextra%2F56%2F43%2FTB1xZoZMpXXXXbiXpXXSutbFXXX.jpg"></image>
+				</view>
+				<!-- 右侧 信息容器 -->
+				<view class="goods_info_wrap">
+					<view class="goods_name">良品铺子</view>
+					<view class="goods_price">亲，今天有活动优惠喔！</view>
+				</view>
+			</navigator>
+
+		</view>
+	</block>
+</Tabs>
+

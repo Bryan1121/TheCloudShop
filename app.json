@@ -1,0 +1,76 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/category/index", 
+    "pages/goods_list/index",
+    "pages/goods_detail/index", 
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index",
+    "pages/message/message" 
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "云初商城",
+    "navigationBarTextStyle":"white",
+     "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#0094ff",
+    "list": [  
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home2.png"
+      },
+      {
+        "pagePath": "pages/category/index",
+        "text": "分类",
+        "iconPath": "icons/type.png",
+        "selectedIconPath": "icons/type2.png"
+      }, 
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "icons/message.png",
+        "selectedIconPath": "icons/message2.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "icons/cart.png",
+        "selectedIconPath": "icons/cart2.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "icons/user.png",
+        "selectedIconPath": "icons/user2.png"
+      }
+    ]
+   
+  },
+    
+  "sitemapLocation": "sitemap.json"
+}
+
+
+
+
+
+
+
+
+
+
+
+
